@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: radial-gradient(circle at 20% 0%, #ac7c4c, #a16f43, #96623a, #8b5532, #80492a, #753c22, #69301b, #5e2414);
+}
+
+.menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 16px;
+    margin: 20px;
+    font-family: 'Raleway', 'sans-senerif';
+    font-size: 20px;
+}
+
+
+
+.menu-links{
+    text-decoration: none;
+    color: #d7bbaa ;
+}
+
+.menu-links:hover{
+    transition: 0.75s;
+    color: #ac7c4c;
+    font-size: 19.8px;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid #b06c58;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    gap: 16px;
+    margin: 20%;
+}
+
+.title{
+    font-family: 'Quicksand', 'sans-senerif';
+    color: #d7bbaa;
+    font-size: 40px;
+}
+
+.input{
+    padding: 10px;
+    border-radius: 0% 20% 0% 20% ;
+    outline-color: #b06c58;
+    color: #6e3c2e;
+    font-family: 'Barlow-condensed', 'sans-senerif';
+    font-size: 14px;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 10px 25px;
+    background-color: transparent;
+    color:#d7bbaa;
+    border-radius: 15%;
+
+}
+
+.btn:hover{
+    background-color: #6e3c2e;
+    transition: 0.75s;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #d7bbaa;
+    font-family: 'Barlow-condensed', 'sans-senerif';
+}
+
